@@ -1,0 +1,78 @@
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/37372b0c-16ef-4614-9c66-f0464ffe4136/web/NG-en-20260216-TRIFECTA-perspective_61b624eb-87dd-4110-ab08-843a3a0d99b9_large.jpg);
+    background-color: rgba(0, 0, 0, 0.753);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: block;
+}
+.logo img{
+    width: auto;
+    background-color: rgba(7, 7, 7, 0);
+    height: 90px;
+    display: flexbox;
+}
+.logo{
+    margin-left: 10%;
+}
+.cont{  
+    color: whitesmoke;
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+}
+input[type="email"]{
+    background-color: #0c0c0c70;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.253);
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
+}
+button{
+    background-color: #E50914;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px ;
+    height: auto;
+    position: absolute;
+    margin-left: 5px; ;
+}
+#b1{
+    background-color: #E50914;
+    border: none;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 35px;
+    right: 15%;
+    
+}
+input:focus{
+    outline: none;
+    border-color: #b4afaf;
+    box-shadow: 0 0 0 2px rgba(196, 194, 194, 0.15);
+}
+h2{
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-weight: 600;
+    margin-top: 1px;
+}
+h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+.material-symbols-outlined {
+  position: absolute;
+  font-size:10px ;
+}
