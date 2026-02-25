@@ -21,6 +21,7 @@ body{
     margin: 0 auto;
     max-width: 500px;
     padding: 20px;
+    display:block;
 }
 input[type="email"]{
     background-color: #0c0c0c70;
@@ -28,9 +29,9 @@ input[type="email"]{
     border: 1px solid rgba(255, 255, 255, 0.253);
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
+    cursor: text;
     border-radius: 5px;
-    width: 70%;
+    width: 75%;
     height: auto;
 }
 button{
@@ -58,8 +59,8 @@ button{
 }
 input:focus{
     outline: none;
-    border-color: #b4afaf;
-    box-shadow: 0 0 0 2px rgba(196, 194, 194, 0.15);
+    border-color: #b4afaf7c;
+    box-shadow: 0 0 0 2px rgba(196, 194, 194, 0.021);
 }
 h2{
     font-size: 25px;
