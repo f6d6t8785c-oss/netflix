@@ -11,9 +11,11 @@ body{
     background-color: rgba(7, 7, 7, 0);
     height: 90px;
     display: flexbox;
+    transform: scale(0.9);
 }
 .logo{
     margin-left: 10%;
+    margin-top: 2px;
 }
 .cont{  
     color: whitesmoke;
@@ -55,7 +57,7 @@ button{
     height: fit-content;
     position: absolute;
     top: 35px;
-    right: 15%;
+    right: 13%;
     font-family: sans-serif;
     
 }
