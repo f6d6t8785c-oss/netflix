@@ -67,12 +67,14 @@ input:focus{
 h2{
     font-size: 18px;
     margin-bottom: 35px;
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 1px;
     font-family: sans-serif;
+    margin-left: 90px;
+    font-weight: 300;
 }
 h1{
-    font-size: 48px;
+    font-size: 50px;
     margin-bottom: 15px;
     font-weight: 800;
     font-family: sans-serif;
@@ -82,4 +84,12 @@ h1{
   position: absolute;
   font-size:10px ;
   font-family: sans-serif;
+}
+#first{
+    margin-top: -20px;
+    margin-left: 33px;
+}
+#second{
+    margin-top: -20px;
+    margin-left: 150px;
 }
